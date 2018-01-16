@@ -1,34 +1,29 @@
-
 body {
-  background: linear-gradient(to bottom, #a68c8d 5%,white 5%,white 120%);
-  font-family:'Signika';
+  font-family: 'Signika', sans-serif;
   font-size: 17px;
+  font-weight: lighter;
 }
 
-.balken {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  height: 100px;
-  background: #a68c8d;
-}
 
 
 h1 {
-  margin-top: 30px;
+  font-family: 'Signika', sans-serif;
+  margin-top: 100px;
   font-size: 38px;
   font-weight: bold;
-  color: white;
+  color: #a68c8d;
   line-height: 10px;
 }
 
 
 h2 {
+  font-family: 'Signika', sans-serif;
   font-size: 25px;
   font-weight: normal;
 }
 
 h3 {
+  font-family: 'Signika', sans-serif;
   margin-top: 3cm;
   font-size: 17px;
   font-weight: normal;
@@ -38,6 +33,7 @@ h3 {
 
 
 p {
+  font-family: 'Signika', sans-serif;
   font-weight: lighter;
 }
 
@@ -101,6 +97,18 @@ img {
   max-height: 400px;
 }
 
+
+
 .clearfix {
   clear: both;
+}
+
+video {
+  height: 350px;
+  padding-bottom: 100px;
+}
+
+
+.project {
+  padding-bottom: 50px;
 }
